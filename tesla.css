@@ -2,6 +2,7 @@
   margin: 0;
   padding: 0;
 }
+
 .img1 {
   background-image: url("https://tesla-cdn.thron.com/delivery/public/image/tesla/03e533bf-8b1d-463f-9813-9a597aafb280/bvlatuR/std/4096x2560/M3-Homepage-Desktop-LHD");
   height: 100vh;
@@ -9,9 +10,11 @@
   background-repeat: no-repeat;
   background-size: cover;
 }
+
 .img1texts {
   margin-top: 500px;
 }
+
 .bg_img2 {
   background-image: url("https://tesla-cdn.thron.com/delivery/public/image/tesla/8e2df1b9-a4bf-4eb9-beec-2cf5cc77fca0/bvlatuR/std/2880x2400/Desktop-ModelY?quality=70");
   height: 100vh;
@@ -73,7 +76,10 @@
   top: 0;
   width: 100%;
   height: 80px;
+  display: flex;
+  align-items: center;
 }
+
 .headerlogo {
   display: flex;
   position: absolute;
@@ -81,6 +87,7 @@
   height: 68px;
   margin-left: 32px;
 }
+
 .headerlongdirections {
   display: flex;
   position: absolute;
@@ -88,41 +95,48 @@
   height: 50px;
   margin-left: 420px;
 }
+
 .firstheaderdirectiondiv {
   display: flex;
   position: absolute;
   padding-top: 17px;
 }
+
 .secoundheaderdirectiondiv {
   display: flex;
   position: absolute;
   padding-top: 17px;
   margin-left: 90px;
 }
+
 .thirdheaderdirectiondiv {
   display: flex;
   position: absolute;
   padding-top: 17px;
   margin-left: 180px;
 }
+
 .fourthheaderdirectiondiv {
   display: flex;
   position: absolute;
   padding-top: 17px;
   margin-left: 270px;
 }
+
 .fifthheaderdirectiondiv {
   display: flex;
   position: absolute;
   padding-top: 17px;
   margin-left: 360px;
 }
+
 .sixthheaderdirectiondiv {
   display: flex;
   position: absolute;
   padding-top: 17px;
   margin-left: 450px;
 }
+
 .headershortoptions {
   display: flex;
   position: absolute;
@@ -130,12 +144,14 @@
   height: 50px;
   margin-left: 1182px;
 }
+
 .firstheaderoptionsdiv {
   display: flex;
   position: absolute;
   padding-top: 17px;
   font-size: 18px;
 }
+
 .secondheaderoptiondiv {
   display: flex;
   position: absolute;
@@ -143,6 +159,7 @@
   font-size: 18px;
   margin-left: 69px;
 }
+
 .thirdheaderoptiondiv {
   display: flex;
   position: absolute;
@@ -150,18 +167,21 @@
   font-size: 18px;
   margin-left: 162px;
 }
+
 .img1text1 {
   display: flex;
   position: absolute;
   margin-top: -709px;
   font-size: 47px;
 }
+
 .img1text2 {
   display: flex;
   position: absolute;
   margin-top: -619px;
   font-size: 17px;
 }
+
 .textbottomwrapper {
   background-color: transparent;
   position: fixed;
@@ -169,15 +189,18 @@
   width: 100%;
   height: 80px;
 }
+
 .bottomwrapper1stdiv {
   display: flex;
+  border: none;
   position: absolute;
   margin-left: 442px;
   background: #363535;
-  border: solid gray;
+  border-radius: 16px;
   height: 40px;
   width: 249px;
 }
+
 .wrappertext1 {
   display: flex;
   position: absolute;
@@ -186,15 +209,18 @@
   font-size: 18px;
   color: white;
 }
+
 .bottomwrapper2nddiv {
   display: flex;
   position: absolute;
   margin-left: 731px;
   background: white;
-  border: solid gray;
+  border: none;
+  border-radius: 16px;
   height: 40px;
   width: 249px;
 }
+
 .wrappertext2 {
   display: flex;
   position: absolute;
@@ -202,6 +228,7 @@
   padding-left: 59px;
   font-size: 18px;
 }
+
 .bottomlogo {
   background-color: transparent;
   position: fixed;
@@ -210,6 +237,7 @@
   width: 100%;
   height: 80px;
 }
+
 .img7text {
   display: flex;
   position: absolute;
@@ -217,10 +245,25 @@
   font-size: 50px;
   margin-left: 580px;
 }
+
 .img7bottomdiv {
   display: flex;
   position: absolute;
   margin-top: 700px;
   margin-left: 500px;
   border: solid gray;
+}
+
+#footer {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding-bottom: 32px;
+  background: transparent;
+}
+
+.footerItem {
+  padding-left: 16px;
+  color: grey;
+  cursor: pointer;
 }
